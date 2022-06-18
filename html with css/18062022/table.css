@@ -1,0 +1,24 @@
+th {
+    background-color: mediumorchid;
+    color: black;
+}
+
+.notdone {
+    background-color: red;
+}
+
+.done {
+    background-color: green;
+}
+
+.css {
+    background-color: greenyellow;
+}
+
+body {
+    background-color: hotpink;
+}
+
+table {
+    background-color: white;
+    color: black;}
