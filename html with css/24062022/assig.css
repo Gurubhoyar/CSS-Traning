@@ -1,0 +1,109 @@
+.header{
+    background-color: aqua;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+.logo{ float: left;
+    background-color: blue;
+    padding: 10px;
+
+
+}
+.logo:hover{
+    color: brown;
+    border: 5px dotted red;
+    border-radius: 30px;
+}
+
+
+.search{
+    float: right;
+    background-color: chocolate;
+    padding: 10px;
+    border: 10px dotted crimson;
+}
+.search:hover{
+    background-color: darkgreen;
+    color: darksalmon;
+}
+.nav{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    
+}
+.navlink{
+    display: inline;
+    border: 2px solid black;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.nav .navlink:hover{
+    background-color: chartreuse;
+}
+.main{ display: inline;
+
+}
+.left{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 0;
+}
+.menu{
+width: 100%;
+   
+    border-bottom: 1px solid gray;
+    padding:10px ;
+    text-align: left;
+    margin: 0px;
+}
+.menu:hover{
+    background-color: yellow;
+}
+.middle{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.middle .product{
+    float: left;
+    text-align: center;
+    margin: 10px;
+    
+}
+.right{
+    float: right;
+    text-align: center;
+    width: 20%;
+    margin: 5px auto;
+}
+.product{
+
+border: 1px solid gray;
+margin: 10px ;
+border-radius: 20px;
+}
+.product:hover{
+    background-color: gray;
+}
+body{
+    margin: 0px;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+    width: 100%;padding: 10px;
+
+}
+img{
+    border-radius: 30px;
+}
+.footer:hover{
+    color: blue;
+}

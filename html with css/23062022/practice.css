@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.header {
+    background-color: black;
+    color: limegreen;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.search {
+    float: right;
+}
+
+.nav {
+    background-color: lightskyblue;
+    color: black;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.navlink {
+    display: inline-block;
+    border: 1px dotted red;
+    padding: 10px;
+    margin: 10px 20px;
+
+}
+
+.main { display: inline-block;
+    
+
+}
+
+.left {
+    background-color: blue;
+    color: white;
+    float: left;
+    width: 25%;
+    border: 10px dotted greenyellow;
+    padding: 10px 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.mid {
+    background-color: aquamarine;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.banner {
+    border: 10px solid red;
+    box-sizing: border-box;
+
+}
+
+.right {
+    background-color: bisque;
+    text-align: center;
+
+    width: 25%;
+    float: left;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: deeppink;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
