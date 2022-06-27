@@ -27,7 +27,7 @@
     color: #a43e4c;
 
 }
-a:hover{
+.info .ul .li:hover a{
     color: #a43e4c
 }
 
@@ -35,7 +35,10 @@ a:hover{
     margin-left: 0%;
     margin-bottom: 50px;
 }
-
+.ul{
+    margin: 0;
+    padding: 0;
+}
 .li {
     border-bottom: 2px solid white;
     display: inline-block;

@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    overflow: hidden;
+    padding: 30px;
+}
+.inner-header{
+    width: 1000px;
+margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 50px ;
+    border-radius: 100%;
+}
+.link{
+    float: right;
+    border: 2px solid wheat;
+   padding: 20px;
+    
+    width: 50%;
+}
+.link a {
+text-decoration: none;
+margin: 0 40px;
+color: white;
+
+}
+.main{
+    width: 1000px;
+    background-color: azure;
+    color: black;
+    
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+main .banner {
+    padding: 50px;
+    box-sizing: border-box;
+}
+.div{
+    margin: 0 auto;
+    width: 1000px;
+}
+.div1{
+   
+    float: left;
+    width: 33.3%;
+    
+}
+.div2{
+    float: left;
+    width: 33.3%;
+   
+}
+.div3{
+    float: right;
+    width: 33.3%;
+    
+}
+.footer{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    overflow: hidden;
+    padding: 30px;
+}
+.inner-footer{
+    margin: 0 auto;
+    width: 1000px;
+
+}
+.flink{
+    width: 33.3%;
+    background-color: blueviolet;
+    float: left;
+    
+}
+img{
+    width: 100%;
+}
