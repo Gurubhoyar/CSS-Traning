@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+}
+.header { 
+    
+background-color: darkblue;
+
+}
+.div1{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+.logo img {
+    width: 100px;
+    height: 50px;
+   border-radius: 20px;
+}
+.link{
+    float:right;
+   
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+background-color: ghostwhite;
+border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: medium;
+    font-style: italic;
+    
+    
+}
+.link1{
+    margin: 0 20px;
+    float: left;
+    width: 20%;
+   
+}
+.link2{
+    margin: 0 20px;
+    float: left;
+    width: 20%;
+}
+.link3{
+    margin: 0 20px;
+    float: left;
+    width: 20%;
+    
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+    
+    overflow: hidden;
+    padding: 30px;
+}
+.banner{
+    
+    margin-bottom: 30px;
+}
+img {
+    width: 100%;
+    border-radius: 40px;
+}
+.products{
+    background-color: darkgreen;
+
+}
+.item{
+    width: 33.3%;
+   
+    box-sizing: border-box;
+}
+.item img{
+    width: 300px;
+    height: 250px;
+}
+.product1{
+    float: left;
+    text-align: center;
+}
+.product2{
+    float: left;
+    text-align: center;
+}
+.product3{
+    float: left;
+    text-align: center;
+}
+ .article{
+ 
+    display: inline-block;
+}
+.left{
+    width: 60%;
+   
+float: left;
+
+}
+.left img{
+    width: 400px;
+    margin-left: 30px;
+}
+.right{
+    width: 40%;
+   
+    float: left;
+    
+    
+
+}
+
+footer{
+    background-color:darkblue;
+    overflow: hidden;
+    color: lightblue;
+}
+.divfooter{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+.ftr{
+    width: 33.3%;
+}
+.f1{
+    
+    float: left;
+}
+.f2{
+    
+    float: left;
+}
+.f3{
+   
+    float: left;
+}
+.ftr li:hover{
+    background-color: azure;
+    color: black;
+}
+.banner img:hover{
+    border-radius: 0%;
+}
