@@ -1,0 +1,101 @@
+.header {
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 40;
+}
+
+.headercontent {
+    width: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+
+}
+
+.logo2 {
+    float: right;
+    font-style: italic;
+    font-size: larger;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.nav {
+
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.link1 {
+    display: inline-block;
+    margin: 0 30px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: blue;
+    position: relative;
+    border-radius: 50px;
+
+}
+
+.link {
+    display: none;
+}
+
+.link1:hover .link {
+    display: block;
+    position: absolute;
+    background-color: chartreuse;
+    width: 70px;
+    left: 0;
+}
+
+.banner img {
+
+    width: 1000px;
+    margin-bottom: 30px;
+
+}
+
+.page {
+    height: 1000px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.maincontent {
+    display: inline-block;
+}
+
+.content1 img {
+    width: 300px;
+    float: left;
+}
+
+.content2 {
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
