@@ -1,0 +1,168 @@
+.header {
+    padding: 20px;
+    background-color: black;
+    color: gold;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+   
+
+}
+
+.headercontent {
+    margin: 0 auto;
+    width: 1000px;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.down{
+    display: none;
+}
+
+
+.div {
+    display: inline-block;
+}
+
+.links {
+    border: 1px solid white;
+    float: right;
+    position: relative;
+
+}
+.link:hover .down {
+    display: block;
+    position: absolute;
+    background-color: azure;
+    width: 50px;
+   
+}
+
+.link {
+    display: inline-block;
+
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.page {
+    height: 1000px;
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.row {
+
+    float: left;
+    width: 100%;
+
+}
+
+.block {
+    display: inline-block;
+
+}
+
+.content1 {
+    width: 50%;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.content2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 30px;
+
+}
+
+.width50 {
+    width: 50%;
+}
+
+.column {
+    float: left;
+}
+
+.width25 {
+    width: 25%;
+    
+}
+
+.row .column {
+    float: left;
+}
+
+
+.row1 {
+    background-color: darkslategrey;
+    float: left;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 382px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 5px;
+}
+@media screen  and (max-width: 767px){
+    .content{
+        width:100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .width50 {
+        width: 100%;
+        
+    }
+    
+    .width25 , .column{
+        width: 50%;
+        text-align: center;
+        
+    }
+    .row1{
+        position: initial;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .row , .column{
+        float: none;
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .banner img {
+        width: 100%;
+        margin-top: 139px;
+        margin-bottom: 20px;
+    }
+}
