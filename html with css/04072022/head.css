@@ -13,17 +13,19 @@ overflow: hidden;
     float: left;
     color: gray;
     margin-left: 43px;
-    margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .right{
     float: right;
     color: gray;
-    margin-right:140px;
+    margin-right:152px;
+    
+    margin-bottom: 8px;
 }
 .right-top-item{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 14px;
     padding-bottom: 0;
 }
 .navitem{
@@ -37,10 +39,11 @@ overflow: hidden;
     display: inline-block;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 .msg{
     background-color: #DA7029;
-    padding: 10px;
+    padding: 18px;
     color: antiquewhite;
     padding-left: 40px;
 }
@@ -76,4 +79,14 @@ img{
     padding: 0;
     margin: 0;
     margin-top: 10px;
+}
+.top-item-list{
+    display: none;
+    background-color: #00095B;
+    color: #F2F2F2;
+    position: absolute;
+    padding: 10px;
+}
+.right-top-item:hover .top-item-list{
+    display: block;
 }
