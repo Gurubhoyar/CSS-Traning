@@ -90,3 +90,7 @@ img{
 .right-top-item:hover .top-item-list{
     display: block;
 }
+.cross{
+    float: right;
+    margin-right: 20px;
+}
