@@ -52,22 +52,23 @@ li{
 }
 .link{
     margin-right: 10px;
+    text-decoration: none;
 }
 .last-block{
     float: left;
 padding: 0 20px;
 }
 .copyright{
-    
+    margin-top: 15px;
     display: inline-block;
 }
 .close{
 width: 30px;
     float: right;
-    
+    margin-bottom: 21px;
     
 }
 .last{
     overflow: hidden;
-    margin-bottom: 7px;
+    margin-bottom: -3px;
 }
