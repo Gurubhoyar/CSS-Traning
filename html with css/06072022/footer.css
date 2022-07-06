@@ -36,6 +36,7 @@ body{
 }
 ul{
     list-style-type: none;
+    padding: 0px;
 }
 li img {
     width: 15px;
@@ -56,7 +57,7 @@ li{
 }
 .last-block{
     float: left;
-padding: 0 20px;
+padding-right: 50px;
 }
 .copyright{
     margin-top: 15px;
@@ -65,10 +66,14 @@ padding: 0 20px;
 .close{
 width: 30px;
     float: right;
-    margin-bottom: 21px;
+    margin-bottom: 16px;
     
 }
 .last{
     overflow: hidden;
-    margin-bottom: -3px;
+    margin-bottom: -10px;
+    padding: 0px;
+}
+.footer-in ul{
+    margin-left: 0;
 }
