@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+}
+.content{
+    width: 11.11%;
+    
+    float: left;
+}
+.lower{
+    width: 1200px;
+    margin: 0 auto;
+   
+    overflow: hidden;
+}
+.lowerleft{
+width: 70%;
+    
+    float: left;
+}
+.lowerright{
+    width: 30%;
+    
+    float: right;
+    overflow: hidden;
+}
+.left{
+    
+
+    min-width: 30%;
+
+}
+.rimage{float: left;
+
+
+}
+.text{
+    float: left;
+}
+.salad{
+    float: left;
+    width: 67px;
+    height: 85px;
+
+}
+.stext{
+    vertical-align: middle;
+}
+h1{
+    float: right;
+}
+.rimg{
+    width: 177px;
+}
+.limg{
+    float: left;
+}
+.content1{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content2{
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+ .div2{
+    width: 100%;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    background-color: #f2f2f2;
+}
