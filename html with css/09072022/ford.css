@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+}
+
+.header-top {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.header-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 8px 0px;
+}
+
+.header-top-left {
+    float: left;
+    box-sizing: border-box;
+}
+
+.header-top-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.world {
+vertical-align: middle;
+    width: 25px;
+}
+
+.msg {
+    background-color: #DA7029;
+    color: antiquewhite;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.right-top-item {
+    display: inline-block;
+    padding: 0 14px;
+    padding-bottom: 0;
+
+}
+
+.navitem {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 10px;
+
+}
+
+.search {
+    width: 28px;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 140px;
+    padding: ;
+}
+
+.nav .header-top-right {
+    float: none;
+}
+
+.cross {
+    float: right;
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav {
+    overflow: hidden;
+    color: #00095B;
+    background-color:white;
+}
+
+.mimg {
+    float: left;
+    width: 25px;
+    margin-left: 20px;
+
+}
+
+.profile {
+    width: 25px;
+}
+
+.right-top-nav-list {
+    margin: 0;
+    padding-right: 23px;
+}
+
+.navlist {
+    margin: 0;
+    margin-right: 0;
+}
+
+.top-item-list {
+    display: none;
+    background-color: #00095B;
+    color: #F2F2F2;
+    position: absolute;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.right-top-item:hover .top-item-list {
+    display: block;
+}
+.site{
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+
+    .header-top-left {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-top-right {
+
+        box-sizing: border-box;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+    .navitem {
+        display: block;
+        overflow: hidden;
+        padding: 0 10px;
+        padding: 10px;
+        border-bottom: 2px solid #00095B;
+    }
+    .header-top .header-top-right{
+        display: none;
+    }
+    .logo{
+        width: 300px;
+    }
+}
+.column{
+    overflow: hidden;
+background-color: #F2F2F2;
+width: 25%;
+float: left;
+color:  #00095B;
+padding: 25px 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.mainfooter{
+    background-color: #F2F2F2;
+    width: 100%;
+    overflow: hidden;
+}
+.footer{
+    
+}
+.footer-in{
+    background-color: #00095B;
+    width: 100%;
+    overflow: hidden;
+}
+.lower{
+   max-width:1240px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    overflow: hidden;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li img {
+    width: 15px;
+    vertical-align: sub;
+}
+.column2 ,.column3 {
+    margin-top: 63px;
+}
+li{
+    margin-bottom: 12px;
+}
+.social-links{
+    margin: 20px 0px ;
+}
+.link{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.last-block{
+    float: left;
+padding-right: 50px;
+}
+.copyright{
+    margin-top: 15px;
+    display: inline-block;
+}
+.close{
+width: 30px;
+    float: right;
+    margin-bottom: 16px;
+    
+}
+.last{
+    overflow: hidden;
+    margin-bottom: -10px;
+    padding: 0px;
+}
+.footer-in ul{
+    margin-left: 0;
+}
+.main{
+    width: 1240px;
+    margin: 0 auto;
+}
+.main-left{
+    width: 75%;
+    color: #00095b;
+    background-color:white;
+    
+}
+.main-right{
+    width: 25%;
+    background-color:#F2F2F2;
+    
+}
+.main-content{
+    display: flex;
+}
+.mywid{
+    font-size: larger;
+}
+.right-lists{
+    border-bottom:  1px solid gray;
+    width: 86%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.down{
+    float: right;
+    width: 25px;
+}
+.rdown{
+    background-color:#00095b;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.coust{
+    width: 60%;
+    margin: 0 auto;
+}
+.left-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.leftrow{
+    display: flex;
+    margin: 0 10px;
+}
+.column30{
+    width: 30%;
+}
+.column70{
+    width: 70%;
+    margin: 15px;
+}
+.column70 p,h1{
+    margin: 0;
+}
+.like{
+    padding: 20px 0;
+}
+.ano{
+    display: flex;
+}
+.width50{
+    width: 50%;
+    background-color: aquamarine;
+}
+.ano1{
+    display: flex;
+    justify-content: center;
+}
+.width33{
+    padding: 20px;
+}
+.right-lists li img{
+    width: 23px;
+}
