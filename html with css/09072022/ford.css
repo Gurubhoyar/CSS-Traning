@@ -43,6 +43,8 @@ vertical-align: middle;
     color: antiquewhite;
     padding: 10px;
     overflow: hidden;
+    box-shadow: -8px 2px 8px 2px darkgrey;
+    margin-bottom: 10px;
 }
 
 .right-top-item {
@@ -254,9 +256,13 @@ width: 30px;
 }
 .right-lists{
     border-bottom:  1px solid gray;
+    color: #00095B;
     width: 86%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 16px 12px;
+}
+.right-lists p{
+    color: gray;
 }
 
 .down{
@@ -278,7 +284,7 @@ width: 30px;
 .left-nav{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 30px 10px;
 }
 .leftrow{
     display: flex;
@@ -290,19 +296,25 @@ width: 30px;
 .column70{
     width: 70%;
     margin: 15px;
+    box-shadow: 0px 4px 9px -2px darkgrey;
+    padding: 10px;
 }
 .column70 p,h1{
     margin: 0;
 }
 .like{
-    padding: 20px 0;
+    padding-top: 10px;
+    justify-content: space-between;
+    display: flex;
 }
 .ano{
     display: flex;
 }
 .width50{
     width: 50%;
-    background-color: aquamarine;
+    background-color: #00095B;
+    color: white;
+    margin-right: 15px;
 }
 .ano1{
     display: flex;
@@ -313,4 +325,156 @@ width: 30px;
 }
 .right-lists li img{
     width: 23px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.movement{
+    background-image: url(mainphotos/fordcar.png);
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.m50{
+    width: 50%;
+    background: none;
+    margin: 21px;
+}
+.holiday{
+    border-bottom: 1px solid gray;
+    padding-bottom: 80px;
+}
+.carinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car33{
+    width: 33%;
+}
+.leftrow1{
+    flex-direction: column;
+}
+.holiday1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+}
+.trd , .trending{
+    display: flex;
+}
+.imga{
+    width: 30px;
+}
+.img15{
+    width: 25%;
+}
+.tex85{
+    width: 75%;
+    padding: 20px 10px;
+}
+.trending p{
+    font-size: smaller;
+    color: gray;
+    padding: 0;
+}
+.trending h4{
+    padding: 0;
+    margin: 0;
+}
+.trending{
+    border-bottom: 0.5px solid gray;
+}
+.trd{
+    padding: 15px 0px;
+    font-size: smaller;
+}
+.cars2{
+    width: 285px;
+    
+}
+.width50{
+    display: flex;
+}
+.i30{
+    width: 30%;
+}
+.t70{
+    width: 70%;
+    margin: 10px 10px ;
+}
+.line{
+    width: 25px;
+    float: left;
+    display: flex;
+}
+.gbp{
+    padding-bottom: 44px;
+}
+.gbg{
+    padding-bottom: 26px;
+}
+.carinfo span, .leftrow p, figcaption p{
+    color: grey;
+}
+.left-nav span:hover{
+    border-bottom:2px solid #00095B;
+}
+.no{
+    padding-bottom: 10px;
+}
+figure{
+    box-shadow: 0px 4px 9px -2px darkgrey;
+}
+.column701{padding: 10px;
+    margin: 15px;
+    box-shadow: 0px 4px 9px -2px darkgrey;}
+.leftrow .holiday {
+    border-bottom: 1px solid gray;
+    padding-bottom: 43px;
+}
+figcaption{
+    padding: 10px;
+    border-bottom: 1px solid  gray;
+}
+.column301{
+    text-align: center;
+}
+.select{
+    width: 170px;
+    height: 30px;
+}
+.end{
+    padding: 10px;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+.class{
+    padding-bottom: 20px;
+}
+.limge{
+    height: 290px;
+    width: 275px;
+}
+.fimg{
+    height: 126px;
+}
+.gimg{
+    height: 127px;
+}
+.learn{
+    border-radius: 100px;
+    width: 190px;
+}
+.bronco{
+    height: 232px;
+    width: 390px;
+}
+.lik{
+    padding-bottom: 10px;
+}
+.rpic{
+    width: 21px;
 }
