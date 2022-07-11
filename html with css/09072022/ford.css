@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 15px;
     font-weight: 600;
 }
@@ -43,8 +43,9 @@ vertical-align: middle;
     color: antiquewhite;
     padding: 10px;
     overflow: hidden;
-    box-shadow: -8px 2px 8px 2px darkgrey;
-    margin-bottom: 10px;
+    box-shadow: -8px 7px 9px 3px darkgrey;
+    position: relative;
+    
 }
 
 .right-top-item {
@@ -242,11 +243,12 @@ width: 30px;
     color: #00095b;
     background-color:white;
     
+    padding-top: 20px;
 }
 .main-right{
     width: 25%;
     background-color:#F2F2F2;
-    
+    padding-top: 45px;
 }
 .main-content{
     display: flex;
@@ -289,14 +291,15 @@ width: 30px;
 .leftrow{
     display: flex;
     margin: 0 10px;
+    padding-bottom: 45px;
 }
 .column30{
     width: 30%;
 }
 .column70{
     width: 70%;
-    margin: 15px;
-    box-shadow: 0px 4px 9px -2px darkgrey;
+    
+    box-shadow: 3px 14px 18px -6px darkgrey;
     padding: 10px;
 }
 .column70 p,h1{
@@ -319,6 +322,9 @@ width: 30px;
 .ano1{
     display: flex;
     justify-content: center;
+    padding: 20px 0px;
+    color: gray;
+    font-size: larger;
 }
 .width33{
     padding: 20px;
@@ -329,13 +335,14 @@ width: 30px;
 .news{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 12px 13px 0px 6px;
 }
 .movement{
     background-image: url(mainphotos/fordcar.png);
     display: flex;
     width: 100%;
     color: white;
+    margin: 30px 0px;
 }
 .m50{
     width: 50%;
@@ -419,11 +426,14 @@ width: 30px;
 }
 .left-nav span:hover{
     border-bottom:2px solid #00095B;
+    
 }
 .no{
     padding-bottom: 10px;
+    font-size: x-large;
 }
 figure{
+    margin: 10px;
     box-shadow: 0px 4px 9px -2px darkgrey;
 }
 .column701{padding: 10px;
@@ -431,11 +441,16 @@ figure{
     box-shadow: 0px 4px 9px -2px darkgrey;}
 .leftrow .holiday {
     border-bottom: 1px solid gray;
-    padding-bottom: 43px;
+    padding-bottom: 63px;
 }
 figcaption{
-    padding: 10px;
-    border-bottom: 1px solid  gray;
+    padding: 10px 10px 0px;
+
+}
+figcaption p{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    width: 87%;
 }
 .column301{
     text-align: center;
@@ -452,7 +467,7 @@ figcaption{
     margin-bottom: 40px;
 }
 .class{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .limge{
     height: 290px;
@@ -473,8 +488,94 @@ figcaption{
     width: 390px;
 }
 .lik{
-    padding-bottom: 10px;
+
 }
 .rpic{
     width: 21px;
+}
+.block-heading{
+    margin: 0 10px;
+    padding: 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    color: #00095B;
+}
+.block-list{
+    margin: 10px 10px ;
+    padding: 0 ;
+}
+.block-item{
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    display: flex;
+
+}
+.block-title{
+    width: 100%;
+    color: #00095B;
+}
+.main-right h3{
+    margin: 0;
+    font-size: medium;
+}
+.icon{
+    width: 25px;
+    padding-right: 10px;
+}
+.downimg{
+    width: 35px;
+}
+.block-title span{
+    color: gray;
+}
+.info-tex{
+    padding: 10px 20px 0px 20px;
+}
+.arrows{
+    background-color: grey;
+    color:white;
+    width: 20px;
+    height: 28px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.r-arrows{
+    background-color:#00095B;
+    color:white;
+    width: 20px;
+    height: 28px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.like1{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: initial;
+    font-weight: bold;
+}
+.lik-fig{
+    padding-right: 20px;
+}
+.play{
+    float: right;
+    margin-top: 112px;
+    margin-right: 32px;
+    width: 58px;
+}
+.breaking{
+    padding-bottom: 10px;
+}
+.trending h4,p {
+    color: black;
+}
+.ano p,.movement p{
+    color: white;
+}
+.carinfo p {
+    color: #00095B;
+}
+.rdown p{
+    color: white;
 }
