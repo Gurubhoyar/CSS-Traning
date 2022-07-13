@@ -1,0 +1,33 @@
+.linear{
+    padding: 20px;
+background: linear-gradient( red, pink);
+}
+.linear1{
+    padding: 50px;
+background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.radial{
+    width: 500px;
+    height: 400px;
+    background: radial-gradient(blue, lightblue,yellow);
+
+}
+.conic{
+    width: 500px;
+    height: 400px;
+    background: conic-gradient(green,greenyellow,lightgreen );
+    
+}
+.linear2{
+    width: 400px;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+    overflow: hidden;
+}
+.conic2{
+    width: 500px;
+    height: 400px;
+    background:conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%
+    
+}
