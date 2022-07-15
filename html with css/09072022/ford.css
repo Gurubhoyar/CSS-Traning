@@ -472,6 +472,7 @@ figcaption p{
 .limge{
     height: 290px;
     width: 275px;
+    float: left;
 }
 .fimg{
     height: 126px;
@@ -556,7 +557,7 @@ figcaption p{
     font-weight: bold;
 }
 .lik-fig{
-    padding-right: 20px;
+    padding: 0 20px 0 10px;
 }
 .play{
     float: right;
@@ -603,4 +604,10 @@ i{
 }
 .footer li i {color: gray;
 
+}
+.right-image{
+    float: left;
+}
+.new-car{
+    float: left;
 }
